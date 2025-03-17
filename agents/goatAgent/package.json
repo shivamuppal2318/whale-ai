@@ -1,0 +1,35 @@
+{
+  "name": "goat-agent",
+  "version": "1.0.0",
+  "description": "A blockchain operation agent for WhaleTrack",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "audit-fix": "npm audit fix"
+  },
+  "dependencies": {
+    "@goat-sdk/core": "^0.4.5",
+    "@goat-sdk/plugin-erc20": "^0.2.7",
+    "@goat-sdk/wallet-evm": "^0.2.5",
+    "@goat-sdk/wallet-viem": "^0.2.5",
+    "@openserv-labs/sdk": "latest",
+    "@web3modal/wagmi": "^5.1.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "ngrok": "^5.0.0",
+    "viem": "^2.21.49",
+    "wagmi": "^2.12.16",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/ngrok": "^4.0.3",
+    "@types/node": "^20.16.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

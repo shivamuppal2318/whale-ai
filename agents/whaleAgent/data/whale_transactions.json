@@ -1,0 +1,385 @@
+{
+  "0x2Df1c51E09aECF9cacB7bc98cB1742757f163dF7": {
+    "whaleAddress": "0x2Df1c51E09aECF9cacB7bc98cB1742757f163dF7",
+    "transactions": [
+      {
+        "id": "whale-tx-1742202240468-0",
+        "type": "buy",
+        "amount": "873.34",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:03:11.000Z",
+        "txHash": "0x64963b9a013b5c4e2db60df5044d39872825903d702b756223ed0a0c23b531c2",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-1",
+        "type": "buy",
+        "amount": "25.79",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:03:01.000Z",
+        "txHash": "0x42c7662f12deda579c22f5d647bd942daab96ca051883ed1afb17f9e054bd943",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-2",
+        "type": "buy",
+        "amount": "40.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:02:44.000Z",
+        "txHash": "0xe0f4c8a97463ae7cd9189914c2af09c2c6d46c661bb011c53f7a963bd5652017",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-3",
+        "type": "buy",
+        "amount": "9.99",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:02:43.000Z",
+        "txHash": "0x89e20603f1a31b7ea57b4a855d179a506ac2de309845356dd60632c5b95a8dcd",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-4",
+        "type": "buy",
+        "amount": "1622.38",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:02:42.000Z",
+        "txHash": "0x7b2fb0f4ff9fd92c9428cdb4e766452aaa8b7f197478856ce8a22f4740747697",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-5",
+        "type": "buy",
+        "amount": "403.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:02:35.000Z",
+        "txHash": "0x85afd4ab12de460c8eccc5a9023bcb9a6755d44e50ae0fe647057ea63747dad3",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-6",
+        "type": "buy",
+        "amount": "30000.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:02:07.000Z",
+        "txHash": "0x03ee19095036d9b4cad4e01d90cd66901631423fae0c52c3290d715068976d98",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-7",
+        "type": "buy",
+        "amount": "180.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:02:01.000Z",
+        "txHash": "0x4838dc54ea07723c9fced7216956842451acc7528b1d7e8ef1ca1b5bb964ebe9",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-8",
+        "type": "buy",
+        "amount": "399.53",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:01:54.000Z",
+        "txHash": "0x1e2eb81d482ff170583a5323d861ee35a89ac48ef686a7d8744754e7c85b0fb4",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-9",
+        "type": "buy",
+        "amount": "2108.48",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:01:54.000Z",
+        "txHash": "0xa23299963b8ecec369ac191affab488451b93bceb911ca816315c2df18f9f495",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-10",
+        "type": "buy",
+        "amount": "499.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:01:42.000Z",
+        "txHash": "0xf7b39b1aa38eab022c0ff89f7b49299cdb2a07dc7063a02cf60c00d61436650e",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-11",
+        "type": "buy",
+        "amount": "201.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:01:23.000Z",
+        "txHash": "0xd17b3397cab54590303bce169370f8d7f9f6a4fb75ed35350d90c44c459ecc4b",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-12",
+        "type": "buy",
+        "amount": "40233.83",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:01:20.000Z",
+        "txHash": "0xcf9f167cd9616888d47d33e28f0e921a1f98ad63772a54cea4f4bb7bcb5eba19",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-13",
+        "type": "buy",
+        "amount": "100.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:00:49.000Z",
+        "txHash": "0x3ca58ca13e69e35ffeb91c6d8512c72541f855735fcc976044631c9a4b4c27b7",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-14",
+        "type": "buy",
+        "amount": "374.99",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:00:48.000Z",
+        "txHash": "0x5c3b909b49117277f6e944ba38280035f0485a543c8e93dd4864e99a3b05150a",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-15",
+        "type": "buy",
+        "amount": "956.83",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:00:03.000Z",
+        "txHash": "0xd2c31b8f3e0b409d965deff2238c26318546c3316c278697d56d89499c3d2000",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-16",
+        "type": "buy",
+        "amount": "444.47",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:59:36.000Z",
+        "txHash": "0xd41aa4b14694264c12ac9dc453e18e2e6df02bf788aad4337ff2ae7ec6923c1d",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-17",
+        "type": "buy",
+        "amount": "226.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:58:55.000Z",
+        "txHash": "0x04779b6033f25547674b4de5b3d67a076aa14f2ea54ab0bcfa4b170e1446f9f6",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-18",
+        "type": "buy",
+        "amount": "6.19",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:58:49.000Z",
+        "txHash": "0x50c9592b882277bccdafca096c0ff5424d645fdc6f9efd7d2e818cc254bc3272",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240468-19",
+        "type": "buy",
+        "amount": "13.88",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:58:11.000Z",
+        "txHash": "0xae4bd1425ee4a926ee2e91b6762211cae1459c02591cc720aa7c2f29f334b754",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240469-20",
+        "type": "buy",
+        "amount": "7887.22",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:57:32.000Z",
+        "txHash": "0x00cb23afb6dc31a79611c148975ba82cfc9863183e0127575bf79cc21fb10827",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240469-21",
+        "type": "buy",
+        "amount": "67.11",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:57:31.000Z",
+        "txHash": "0xcd199144f83e4b5bf7e5c5bf4a245020c336f3d56721abe02b9498ab31a5daaa",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240469-22",
+        "type": "buy",
+        "amount": "1034.38",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:57:22.000Z",
+        "txHash": "0xedc375d0266d1bdfcc4451e3f2358e56d42d5519d3fe84b17830f0a4d820765c",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240469-23",
+        "type": "buy",
+        "amount": "26.23",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:57:05.000Z",
+        "txHash": "0xd3efa5b550185720beecefade714656592d65c2014d3f53d9b42fda89f7598cc",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240469-24",
+        "type": "buy",
+        "amount": "11.42",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:56:42.000Z",
+        "txHash": "0x36aa433072d0d0a7f286b4fb8c43fe9ea82268af0a658e259643b45f3ba7348f",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240469-25",
+        "type": "buy",
+        "amount": "31.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:56:37.000Z",
+        "txHash": "0xb8fff4e168ab1991c4a7d23a3130fe4c0f206859aa45f7959148f5ad4ba853dc",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240469-26",
+        "type": "buy",
+        "amount": "898.57",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:56:22.000Z",
+        "txHash": "0xa0c9bc89c0d65f15b99e822082c2902ec243c33e5bd640326ffb2e254a4370fc",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240469-27",
+        "type": "buy",
+        "amount": "20258.18",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:55:54.000Z",
+        "txHash": "0x4bee4c71ee72c7f31f7b6872225474f4d263063466b78fa81a2bf4e640b18946",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240469-28",
+        "type": "buy",
+        "amount": "250.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:55:40.000Z",
+        "txHash": "0xc4a691975c2786c4e16feefbea68fe8a8057ff6e179078ba90cce3d5dc506a21",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202240469-29",
+        "type": "buy",
+        "amount": "1088.78",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:54:26.000Z",
+        "txHash": "0xca33173e47c5ce83dbee79ce911173d848997c1cadc6fb0ba68c0030a64edab9",
+        "counterparty": "[object Object]"
+      }
+    ],
+    "summary": "Found 30 buys (110271.59 USDC) and 0 sells (0.00 USDC) exceeding 0.0001 USDC",
+    "lastUpdated": "2025-03-17T09:04:00.469Z"
+  },
+  "0xf89d7b9c864f589bbF53a82105107622B35EaA40": {
+    "whaleAddress": "0xf89d7b9c864f589bbF53a82105107622B35EaA40",
+    "transactions": [
+      {
+        "id": "whale-tx-1742202138056-1",
+        "type": "buy",
+        "amount": "3000.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T09:01:41.000Z",
+        "txHash": "0x5575aca7d38c7d96a7cc2c50b81d8ccfeb1896c2ce48dd840df2fbc3212dc323",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202138056-6",
+        "type": "buy",
+        "amount": "29925.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:58:37.000Z",
+        "txHash": "0xc90eed55f93dbd8da7b319f440f1e497039035afb35c2736f17b1cee082674eb",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202138056-7",
+        "type": "buy",
+        "amount": "2999.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:55:34.000Z",
+        "txHash": "0x43c9a87e24bc77a3fdc8e825dadfc3f949e5b87926b7571ed9d5cd5c0f4ac7ea",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202138056-9",
+        "type": "buy",
+        "amount": "9989.08",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:52:39.000Z",
+        "txHash": "0xb7543ec2764e63ea763c9cbf2538b6beb293400b0368aaf08526b0d55585488b",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202138056-10",
+        "type": "buy",
+        "amount": "5000.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:49:35.000Z",
+        "txHash": "0xb67958f2c179c6d47cd2a586a80f4c5909e1bc4c263b90b312a16358fcb2e008",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202138056-11",
+        "type": "buy",
+        "amount": "24994.73",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:49:35.000Z",
+        "txHash": "0x4633d3c2a21a2d6e51bd4a7ea47169f4f71b9bc9f4af496d83dda017504e7a52",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202138056-13",
+        "type": "buy",
+        "amount": "3536.76",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:45:57.000Z",
+        "txHash": "0x239d6d761129c2d3b95afb5ade9cb21d4ea4ffed18f9afc285a65662e00cb4c4",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202138056-19",
+        "type": "buy",
+        "amount": "42313.70",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:32:54.000Z",
+        "txHash": "0x70e70577fdf635d65a370690b81dc7cd475410f624be916a6437f41474834c91",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202138057-22",
+        "type": "buy",
+        "amount": "1245.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:29:29.000Z",
+        "txHash": "0xfd79c7a4fd51e8a70b5ff23329ca87504884a17a58358653454a0e638ad0e4e9",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202138057-24",
+        "type": "buy",
+        "amount": "1800.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:27:52.000Z",
+        "txHash": "0x95c2f349f60076f2520c8c548600dbb2ee213c0d52553b54cdff31a49cbce2d1",
+        "counterparty": "[object Object]"
+      },
+      {
+        "id": "whale-tx-1742202138057-29",
+        "type": "buy",
+        "amount": "1941.00",
+        "token": "USDC",
+        "timestamp": "2025-03-17T08:20:26.000Z",
+        "txHash": "0xb96160e8a01726d9d18240e78505a1ab35d851920fca8562d8f563942c05e72a",
+        "counterparty": "[object Object]"
+      }
+    ],
+    "summary": "Found 11 buys (126744.27 USDC) and 0 sells (0.00 USDC) exceeding 1000 USDC",
+    "lastUpdated": "2025-03-17T09:02:18.057Z"
+  }
+}

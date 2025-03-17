@@ -1,0 +1,46 @@
+{
+  "tokens": {
+    "ETH": {
+      "token": "ETH",
+      "buys": 10,
+      "sells": 7,
+      "neutral": 4,
+      "sentiment": "neutral",
+      "lastUpdate": "2025-03-17T09:06:31.391Z"
+    },
+    "BTC": {
+      "token": "BTC",
+      "buys": 17,
+      "sells": 5,
+      "neutral": 7,
+      "sentiment": "positive",
+      "lastUpdate": "2025-03-17T09:06:31.391Z"
+    },
+    "ARB": {
+      "token": "ARB",
+      "buys": 12,
+      "sells": 6,
+      "neutral": 3,
+      "sentiment": "positive",
+      "lastUpdate": "2025-03-17T09:06:31.391Z"
+    },
+    "SOL": {
+      "token": "SOL",
+      "buys": 19,
+      "sells": 7,
+      "neutral": 6,
+      "sentiment": "positive",
+      "lastUpdate": "2025-03-17T09:06:31.391Z"
+    },
+    "AVAX": {
+      "token": "AVAX",
+      "buys": 15,
+      "sells": 10,
+      "neutral": 3,
+      "sentiment": "neutral",
+      "lastUpdate": "2025-03-17T09:06:31.391Z"
+    }
+  },
+  "messages": [],
+  "lastUpdated": "2025-03-17T09:06:31.391Z"
+}

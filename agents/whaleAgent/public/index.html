@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhaleTraderAI</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+  <!-- Landing Page Section -->
+  <section id="landing-page" class="active">
+    <div class="container landing-container">
+      <div class="landing-content">
+        <h1 class="title">WhaleTraderAI</h1>
+        <p class="tagline">Unlock AI-Driven Profits by Tracking Whale Movements</p>
+        
+        <div class="features">
+          <div class="feature-item">
+            <i class="fas fa-chart-line"></i>
+            <h3>Real-Time Tracking</h3>
+            <p>Monitor whale transactions as they happen on Arbitrum</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-robot"></i>
+            <h3>AI Analysis</h3>
+            <p>Advanced algorithms identify profitable trading patterns</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-bolt"></i>
+            <h3>Instant Alerts</h3>
+            <p>Get notified when significant movements occur</p>
+          </div>
+        </div>
+        
+        <button id="connect-wallet-btn" class="btn btn-primary pulse">Connect Wallet</button>
+      </div>
+      <div class="landing-image">
+        <img src="img/whale-chart.svg" alt="Whale Trading Chart" class="hero-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Dashboard Section -->
+  <section id="dashboard" class="hidden">
+    <!-- Navigation/Header -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="brand">WhaleTraderAI</div>
+        <div class="nav-right">
+          <div class="wallet-info">
+            <span class="wallet-address">0x1234...abcd</span>
+            <span class="balance">$100</span>
+          </div>
+          <button id="fund-btn" class="btn btn-small">Fund Management</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Dashboard Header Stats -->
+    <div class="dashboard-header">
+      <div class="container">
+        <div class="stats-row">
+          <div class="stat-card">
+            <i class="fas fa-exchange-alt"></i>
+            <div class="stat-info">
+              <h3>USDC Volume</h3>
+              <p class="stat-value">$1.2M</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <i class="fas fa-user-astronaut"></i>
+            <div class="stat-info">
+              <h3>Active Whales</h3>
+              <p class="stat-value">12</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <i class="fas fa-signal"></i>
+            <div class="stat-info">
+              <h3>Market Sentiment</h3>
+              <p class="stat-value positive">Bullish</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <i class="fas fa-clock"></i>
+            <div class="stat-info">
+              <h3>Last Update</h3>
+              <p class="stat-value" id="last-update">Just now</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Dashboard Content -->
+    <div class="container dashboard-content">
+      <div class="whale-tracking card">
+        <h2>Whale Tracking</h2>
+        <div id="whale-data">
+          <div class="transaction">
+            <div class="transaction-icon"><i class="fas fa-arrow-up"></i></div>
+            <div class="transaction-details">
+              <h3>Whale buying 1.2 ETH of $ARB</h3>
+              <p class="summary">Loading whale data...</p>
+            </div>
+          </div>
+        </div>
+        <button id="swap-btn" class="btn btn-primary">Swap Now</button>
+      </div>
+
+      <div class="telegram-insights card">
+        <h2>Telegram Insights <span class="telegram-source-info">from Telegram Agent</span></h2>
+        <div class="insight-metrics">
+          <div class="metric">
+            <span class="label">Buys:</span>
+            <span id="buys-count" class="value">
+              <span class="loading-placeholder">Loading...</span>
+            </span>
+          </div>
+          <div class="metric">
+            <span class="label">Sells:</span>
+            <span id="sells-count" class="value">
+              <span class="loading-placeholder">Loading...</span>
+            </span>
+          </div>
+          <div class="metric sentiment">
+            <span class="label">Sentiment:</span>
+            <span id="sentiment" class="value">
+              <span class="loading-placeholder">Loading...</span>
+            </span>
+          </div>
+          <div class="metric token">
+            <span class="label">Token:</span>
+            <span id="sentiment-token" class="value">ARB</span>
+          </div>
+        </div>
+        <div class="refresh-button-container">
+          <button id="refresh-sentiment" class="btn btn-small">
+            <i class="fas fa-sync-alt"></i> Refresh
+          </button>
+        </div>
+      </div>
+      
+      <!-- New blockchain portfolio card -->
+      <div class="blockchain-portfolio card">
+        <h2>Portfolio <span class="blockchain-source-info">via GoatAgent</span></h2>
+        <div class="portfolio-metrics">
+          <div class="metric">
+            <span class="label">ETH Balance:</span>
+            <span id="eth-balance" class="value">
+              <span class="loading-placeholder">Loading...</span>
+            </span>
+          </div>
+          <div class="metric">
+            <span class="label">USDC Balance:</span>
+            <span id="usdc-balance" class="value">
+              <span class="loading-placeholder">Loading...</span>
+            </span>
+          </div>
+          <div class="metric">
+            <span class="label">SERV Balance:</span>
+            <span id="serv-balance" class="value">
+              <span class="loading-placeholder">Loading...</span>
+            </span>
+          </div>
+        </div>
+        <div class="refresh-button-container">
+          <button id="refresh-portfolio" class="btn btn-small">
+            <i class="fas fa-sync-alt"></i> Refresh Portfolio
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Information Panel -->
+    <div class="info-panel card">
+      <h2>How It Works <i class="fas fa-question-circle info-icon"></i></h2>
+      <div class="info-content">
+        <p>WhaleTraderAI monitors the blockchain for high-value transactions from known "whale" wallets - addresses that hold large amounts of cryptocurrency.</p>
+        <p>When a whale makes a significant move with USDC on Arbitrum, our AI analyzes the transaction and provides insights you can use to make informed trading decisions.</p>
+        <div class="info-steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-text">We detect whale transactions</div>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-text">AI analyzes patterns & context</div>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-text">You receive actionable insights</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <div id="fund-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Fund Management</h2>
+        <span class="close-modal">&times;</span>
+      </div>
+      <div class="modal-body">
+        <!-- Token selection section will be dynamically added here -->
+        <div class="token-section">
+          <h3>Select Token</h3>
+          <div class="input-group">
+            <label for="token-select">Token:</label>
+            <select id="token-select" class="token-select">
+              <option value="ETH">ETH - Ethereum</option>
+              <option value="USDC">USDC - USD Coin</option>
+              <option value="SERV">SERV - OpenServ</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="amount-input">Amount:</label>
+            <input id="amount-input" class="amount-input" type="number" min="0" placeholder="Amount" value="100" />
+          </div>
+        </div>
+        <button id="add-funds-btn" class="btn btn-primary">Add Funds</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="transaction-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Transaction Confirmed</h2>
+        <span class="close-modal">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p>Your transaction was successful!</p>
+        <p class="tx-hash">Transaction Hash: <span id="tx-hash">0xmock123...456</span></p>
+        <div class="blockchain-explorer-link">
+          <a id="explorer-link" href="#" target="_blank">View on Blockchain Explorer</a>
+        </div>
+        <button id="close-tx-modal" class="btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="swap-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Swap Tokens</h2>
+        <span class="close-modal">&times;</span>
+      </div>
+      <div class="modal-body">
+        <div class="swap-container">
+          <div class="swap-from">
+            <h3>From</h3>
+            <div class="input-group">
+              <label for="from-token">Token:</label>
+              <select id="from-token" class="token-select">
+                <option value="ETH">ETH - Ethereum</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="from-amount">Amount:</label>
+              <input id="from-amount" class="amount-input" type="number" min="0" step="0.001" placeholder="0.0" />
+            </div>
+          </div>
+          <div class="swap-arrow">
+            <i class="fas fa-arrow-down"></i>
+          </div>
+          <div class="swap-to">
+            <h3>To</h3>
+            <div class="input-group">
+              <label for="to-token">Token:</label>
+              <select id="to-token" class="token-select">
+                <option value="USDC">USDC - USD Coin</option>
+                <option value="SERV">SERV - OpenServ</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-amount">Amount:</label>
+              <input id="to-amount" class="amount-input" type="number" min="0" placeholder="0.0" readonly />
+            </div>
+          </div>
+        </div>
+        <div class="swap-info">
+          <p>Rate: <span id="swap-rate">1 ETH = 3500 USDC</span></p>
+          <p>Fee: <span id="swap-fee">0.3%</span></p>
+        </div>
+        <button id="execute-swap-btn" class="btn btn-primary">Swap Tokens</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notifications -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
